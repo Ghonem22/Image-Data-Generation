@@ -30,3 +30,13 @@ Image Data Generation  will help you when you suffer from data scarcity, with fe
    4- text file called "generated_images_path.txt" that contains path of all images.
     
    5- text file called "new_classes_names.txt" that contains names of new classes, which wasn't existed when we generated the dataset. this is useful when we want to add some classed to our dataset, it will add new classed only and write their names into this text file .
+
+
+## What will you get with function:
+
+   1- you will get a complete dataset with any quantity which you can use in classification or detection.
+   
+   2- the output model won't be ideal when you try it with realistic data, it maybe good enough in some cases, but you need one additional step to make sure it will be perfect: 
+
+   use the output model as pretrained model with a small realistic dataset, in this case you will need a dataset, but you will get a great result with very small dataset.
+        
